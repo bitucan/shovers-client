@@ -1,7 +1,13 @@
 import "./App.css";
+import FormShover from "./components/form";
+import Hero from "./components/hero";
 
 function App() {
-  return <h1 className="text-red-500">hello world</h1>;
+  return (
+    <>
+      <Hero />
+      <FormShover />
+    </>
+  );
 }
-
 export default App;
