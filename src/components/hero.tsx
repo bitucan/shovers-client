@@ -1,8 +1,14 @@
 import bg from "../assets/titulo.png";
 import videoBg from "../assets/video-bg.mp4";
 import { Button } from "./atoms/button";
+import { FORM_SHOVERS_ID } from "./consts";
 
 const Hero = () => {
+  const scrollToElement = () => {
+    const elementoDestino = document.getElementById(FORM_SHOVERS_ID);
+    elementoDestino?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="relative">
       <div className="relative w-full h-screen">
@@ -20,7 +26,9 @@ const Hero = () => {
           <div className="flex flex-col items-center">
             <img src={bg} alt="" className="w-full" />
             <div className="mt-8">
-              <Button>inscríbite aquí</Button>
+              <Button className="text-2xl w-56 h-12" onClick={scrollToElement}>
+                inscríbite aquí
+              </Button>
             </div>
           </div>
         </div>

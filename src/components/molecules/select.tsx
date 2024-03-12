@@ -19,7 +19,7 @@ function Select({ label, options, onChange, ...props }: Props) {
       const e = {
         target: {
           name,
-          value,
+          value: value,
         },
       };
       onChange(e as any);

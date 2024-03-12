@@ -9,7 +9,7 @@ export function Input({ className, ...props }: Props) {
       type="text"
       required
       className={twMerge(
-        "w-full rounded-full h-[2.25rem] border-[1px] border-gray-400 px-[1rem] bg-transparent",
+        "w-full rounded-full h-[2.25rem] border-[1px] border-gray-600 px-[1rem] bg-transparent",
         className
       )}
       {...props}

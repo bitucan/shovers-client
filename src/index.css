@@ -5,3 +5,8 @@
 .form-shovers {
   background-image: url("./assets//ruido-fondo.png");
 }
+
+.PhoneInputInput {
+  background: transparent;
+  outline: none;
+}

@@ -68,9 +68,10 @@ export const PETS = [
 ];
 
 export const FORM_INPUTS = {
-  NAME: "name",
-  PHONE: "phone",
-  AGE: "age",
+  FULL_NAME: "full_name",
+  EMAIL: "email",
+  PHONE_NUMBER: "phone_number",
+  DAY_OF_BIRTH: "day_of_birth",
   GENDER: "gender",
   TALENT: "talent",
   PET: "pet",
@@ -80,3 +81,5 @@ export const FORM_INPUTS = {
   OTHER_TALENT: "other_talent",
   OTHER_PET: "other_pet",
 };
+
+export const FORM_SHOVERS_ID = "form_shovers";

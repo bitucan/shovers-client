@@ -6,7 +6,7 @@ export function Button({ children, className, ...props }: Props) {
   return (
     <button
       className={twMerge(
-        "bg-[#ff0000] text-white rounded-full uppercase font-bold w-40 h-10",
+        "bg-[#ff0000] text-white rounded-full uppercase font-bold",
         className
       )}
       {...props}
